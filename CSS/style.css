@@ -198,6 +198,7 @@ input[type=text]:focus {
  color: var(--white);
 }
 
+
 /* Media query for mobile phone responsive design */
 @media only screen and (max-width: 600px) {
   nav a {
@@ -230,7 +231,7 @@ input[type=text]:focus {
   .myForm {
     display: flex;
     flex-direction: column;
-    width: 99vw;
+    width: 100%;
   }
 
   #name, #email {
