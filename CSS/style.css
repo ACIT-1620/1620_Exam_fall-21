@@ -229,9 +229,40 @@ input[type=text]:focus {
   .myForm {
     display: flex;
     flex-direction: column;
-    background-color: var(--formBG);
-    font-family: Poppins, sans-serif;
-    border-radius: 8px;
-    padding: 1.8rem;
+    width: 99vw;
   }
+
+  #name, #email {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%; 
+  }
+
+  .contact input,
+  .contact button {
+    padding: 1vw;
+    margin-bottom: 1vh;
+    border: none;
+    font-size: 2vh;
+  }
+
+  .message {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+  
+  .message > textarea {
+   min-width: 100%;
+   font-size: 1.8rem;
+  }
+
+  .contact button {
+    background: var(--darkGreen);
+    color: var(--white);
+    width: 25%;
+    height: 25%;
+   }
 }
