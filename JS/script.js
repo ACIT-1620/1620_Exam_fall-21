@@ -1,3 +1,4 @@
+//function to check if body has dark mode or light mode then switch it to the other
 function changeTheme() {
     const body = document.querySelector('body')
     
@@ -15,7 +16,9 @@ function changeTheme() {
     }
 }
 
+//event listener to change the theme when toggle is clicked
 const toggle = document.querySelector('.toggle')
 toggle.addEventListener('click', (e) => {
     changeTheme()
 })
+
